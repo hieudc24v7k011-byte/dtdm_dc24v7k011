@@ -1,7 +1,6 @@
 {
-    "name": "hieudc24v7k011/dtdm_lab4",
-    "description": "PHP Info demo",
     "require": {
-        "php": ">=8.3"
+        "php": "^8.3",
+        "platformsh/config-reader": "^2.4"
     }
 }
