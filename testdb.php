@@ -128,7 +128,7 @@ if ($action === 'delete') {
         $stmt = $conn->query("SELECT * FROM People ORDER BY id ASC");
         $people = $stmt->fetchAll();
     ?>
-        <h1 class="fw-bold mb-4">Danh sách sinh viên (People)</h1>
+        <h1 class="fw-bold mb-4">Hệ Thống Quản Lý Sinh Viên DC24V7K011 HUỲNH VĂN HIỂU (People)</h1>
         <a href="testdb.php?action=add" class="btn btn-success mb-3">+ Thêm mới</a>
         
         <table class="table table-bordered bg-white align-middle">
